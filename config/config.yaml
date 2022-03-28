@@ -1,0 +1,6 @@
+demo:
+  host: "http://dapi-demo.veadv.com/secure/?"
+  mauthorization: 8cc4a3ffb5eef4b5f569ca110d390ee7
+  versioncode: android_1.0.0
+  apptype: dreamland
+  user_id: 41017198

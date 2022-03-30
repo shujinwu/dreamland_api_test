@@ -5,9 +5,7 @@ import os
 
 def read_config():
     base_path = os.path.dirname(os.path.abspath(__file__))
-    print(base_path)
     path = base_path + '/config/config.yaml'
-    # print(path)
     with open(path, 'r') as file:
         f = yaml.load(file, Loader=yaml.FullLoader)
     return f
